@@ -12,7 +12,10 @@
 - sensors fusion made with Madgwick's or Mahony's filters,
 - magnetometer calibration for soft and hard iron compensation parameters, made with MATLAB,
 - original protocol based on Modbus-like protocol for long and short range communication via RF and BT - prevention of data corruption,
-- 200 Hz loop control (due to maximum magnetometer data rate) can be higher,
+- 200 Hz loop control (due to maximum magnetometer data rate) can be higher.
+
+## Getting Started
+The project is writen in [Atmel Studio 7](http://www.microchip.com/mplab/avr-support/atmel-studio-7) with [Visual Micro](https://www.visualmicro.com/) addon. But **it is possible to run it with Arduino IDE** by [adding files to project](https://www.arduino.cc/en/Guide/Environment#toc8) (probably there will be need to change the `#include` paths).
 
 ## Hardware major components:
 - Arduino Due is the heart of drone,
