@@ -22,7 +22,7 @@ The project is writen in [Atmel Studio 7](http://www.microchip.com/mplab/avr-sup
 - GY-80 IMU board:
   - ADXL345 accelerometer,
    - L3G4200D gyroscope,
-   - HMC5883L magnetometr,
+   - HMC5883L magnetometer,
    - BMP085 barometer,
 - any ATmega 328P board (Uno and Pro Mini in my setup) on remote,
 - nRF24L01 2.4GHz RF transceivers.
@@ -38,13 +38,15 @@ The project is writen in [Atmel Studio 7](http://www.microchip.com/mplab/avr-sup
 - low IMU quality? - there ale a lot of better IMUs e.g. MPU9250
 - sensors weak calibration?,
 - PID module?
-- ?
+- my mistake - for sure,
+- other?
 
 ## TODO
-- **improve flying performance...**
+- **improve flying performance**,
 - connect pitch, roll, yaw sticks to remote and calibrate them,
 - add pitch, roll control feature (after connecting sticks to remote),
 - add yaw control feature (use heading from IMU filters),
+- add other fancy stuff like (autopilots, altitude keeping, heading keeping etc).
  
 ## Acknowledgments
 
