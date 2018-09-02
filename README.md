@@ -46,6 +46,9 @@ The project is writen in [Atmel Studio 7](http://www.microchip.com/mplab/avr-sup
 - add pitch, roll control feature (after connecting sticks to remote),
 - add yaw control feature (use heading from IMU filters),
  
+## Acknowledgments
+
+* Mahony and Madgwick filters libraries are made based on the [work](https://github.com/kriswiner/GY-80) of [Kris Winer](https://github.com/kriswiner).
 
 ## Author 
 * 2018, **Mateusz Patyk**, <matpatyk@gmail.com> 
